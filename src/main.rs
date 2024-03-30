@@ -86,6 +86,6 @@ async fn call_server(id:Uuid, message: String) -> String {
         );
 
         // server is not available
-        return String::from_str("sirocco is not available").unwrap();
+        return String::from_str("server is not available").unwrap();
     }
 }
